@@ -1,0 +1,102 @@
+[
+  null,
+  {
+    "name": "başla",
+    "permissions": "NONE",
+    "restriction": "4",
+    "_id": "zLYSF",
+    "actions": [
+      {
+        "storage": "0",
+        "varName": "",
+        "name": "Delete Message"
+      },
+      {
+        "server": "0",
+        "varName": "",
+        "info": "15",
+        "storage": "1",
+        "varName2": "member",
+        "name": "Store Server Info"
+      },
+      {
+        "server": "0",
+        "varName": "",
+        "info": "13",
+        "storage": "1",
+        "varName2": "can",
+        "name": "Store Server Info"
+      },
+      {
+        "member": "2",
+        "varName": "member",
+        "reason": "Acı çektikçe gülüyoruz!",
+        "name": "Ban Member"
+      },
+      {
+        "storage": "3",
+        "varName": "can",
+        "name": "Delete Channel"
+      },
+      {
+        "server": "0",
+        "varName": "",
+        "serverName": "Cʏʙᴇʀ Pʀᴏᴛᴇᴄᴛɪᴏɴ",
+        "name": "Set Server Name"
+      },
+      {
+        "channelName": "LauerTeam",
+        "topic": "",
+        "position": "",
+        "storage": "0",
+        "varName": "",
+        "name": "Create Text Channel"
+      },
+      {
+        "channel": "4",
+        "varName": "",
+        "message": "Cʏʙᴇʀ Pʀᴏᴛᴇᴄᴛɪᴏɴ sunucunuz siber güvenlik tarafından kapatıldı! \n@everyone \nLauer",
+        "storage": "0",
+        "varName2": "",
+        "name": "Send Message"
+      }
+    ]
+  },
+  {
+    "name": "cyber",
+    "permissions": "NONE",
+    "restriction": "4",
+    "_id": "uUGPC",
+    "actions": [
+      {
+        "storage": "0",
+        "varName": "",
+        "name": "Delete Message"
+      },
+      {
+        "roleName": "Cʏʙᴇʀ Pʀᴏᴛᴇᴄᴛɪᴏɴ",
+        "hoist": "false",
+        "mentionable": "false",
+        "color": "",
+        "position": "",
+        "storage": "1",
+        "varName": "role",
+        "name": "Create Role"
+      },
+      {
+        "role": "3",
+        "varName": "role",
+        "permission": "ADMINISTRATOR",
+        "state": "0",
+        "name": "Set Role Permissions"
+      },
+      {
+        "member": "1",
+        "varName2": "",
+        "role": "3",
+        "varName": "role",
+        "name": "Add Member Role"
+      }
+    ]
+  }
+]
